@@ -1,0 +1,135 @@
+{
+  "institution": "National Institute of Technology Tiruchirappalli",
+  "period": "1996–2026",
+  "source": "Scopus",
+  "last_updated": "11 October 2026",
+  "exported": "17 October 2026",
+  "metric": "Citations",
+  "overall": "325648",
+  "years": [
+    {
+      "year": 1996,
+      "citations": 273
+    },
+    {
+      "year": 1997,
+      "citations": 265
+    },
+    {
+      "year": 1998,
+      "citations": 313
+    },
+    {
+      "year": 1999,
+      "citations": 383
+    },
+    {
+      "year": 2000,
+      "citations": 539
+    },
+    {
+      "year": 2001,
+      "citations": 407
+    },
+    {
+      "year": 2002,
+      "citations": 788
+    },
+    {
+      "year": 2003,
+      "citations": 1402
+    },
+    {
+      "year": 2004,
+      "citations": 1397
+    },
+    {
+      "year": 2005,
+      "citations": 1657
+    },
+    {
+      "year": 2006,
+      "citations": 3616
+    },
+    {
+      "year": 2007,
+      "citations": 3191
+    },
+    {
+      "year": 2008,
+      "citations": 6510
+    },
+    {
+      "year": 2009,
+      "citations": 11316
+    },
+    {
+      "year": 2010,
+      "citations": 10937
+    },
+    {
+      "year": 2011,
+      "citations": 14795
+    },
+    {
+      "year": 2012,
+      "citations": 17632
+    },
+    {
+      "year": 2013,
+      "citations": 16465
+    },
+    {
+      "year": 2014,
+      "citations": 17043
+    },
+    {
+      "year": 2015,
+      "citations": 16043
+    },
+    {
+      "year": 2016,
+      "citations": 17669
+    },
+    {
+      "year": 2017,
+      "citations": 16389
+    },
+    {
+      "year": 2018,
+      "citations": 22523
+    },
+    {
+      "year": 2019,
+      "citations": 27720
+    },
+    {
+      "year": 2020,
+      "citations": 27729
+    },
+    {
+      "year": 2021,
+      "citations": 28507
+    },
+    {
+      "year": 2022,
+      "citations": 22068
+    },
+    {
+      "year": 2023,
+      "citations": 22084
+    },
+    {
+      "year": 2024,
+      "citations": 10080
+    },
+    {
+      "year": 2025,
+      "citations": 5080
+    },
+    {
+      "year": 2026,
+      "citations": 827
+    }
+  ]
+}

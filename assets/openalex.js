@@ -1,0 +1,15 @@
+const $=id=>document.getElementById(id),n=v=>Number(v||0),f=v=>n(v).toLocaleString("en-IN"),esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const layout={margin:{l:65,r:15,t:10,b:50},paper_bgcolor:"rgba(0,0,0,0)",plot_bgcolor:"rgba(0,0,0,0)",font:{family:"Segoe UI,Arial",color:"#29252a",size:11},xaxis:{gridcolor:"#eee7ea",automargin:true},yaxis:{gridcolor:"#eee7ea",automargin:true}},config={responsive:true,displaylogo:false};
+async function init(){try{const url=new URL("data/openalex_institution.json",document.baseURI),r=await fetch(url);if(!r.ok)throw Error(`openalex_institution.json: HTTP ${r.status}`);const d=await r.json();
+const items=[["Works",f(d.works_count),"OpenAlex institution profile"],["Cited-by count",f(d.cited_by_count),"OpenAlex cited-by count"],["h-index",f(d.summary_stats?.h_index),"OpenAlex summary statistics"],["i10-index",f(d.summary_stats?.i10_index),"OpenAlex summary statistics"],["2-year mean citedness",Number(d.summary_stats?.["2yr_mean_citedness"]||0).toFixed(2),"OpenAlex summary statistics"],["Institution ID","I122964287","OpenAlex profile"]];
+$("oaKpis").innerHTML=items.map(x=>`<article class="kpi"><span>${esc(x[0])}</span><strong>${esc(x[1])}</strong><small>${esc(x[2])}</small></article>`).join("");
+const years=[...(d.counts_by_year||[])].sort((a,b)=>a.year-b.year);$("oaUpdated").textContent="Snapshot updated "+(d.updated_date||"date not supplied");
+Plotly.newPlot("oaYearChart",[{x:years.map(x=>x.year),y:years.map(x=>x.works_count),type:"bar",marker:{color:"#64172d"},hovertemplate:"Year %{x}<br>Works %{y:,}<extra></extra>"}],{...layout,xaxis:{...layout.xaxis,title:"Year",dtick:2},yaxis:{...layout.yaxis,title:"Works"}},config);
+Plotly.newPlot("oaOpenChart",[{x:years.map(x=>x.year),y:years.map(x=>x.oa_works_count),type:"bar",marker:{color:"#9a6b32"},hovertemplate:"Year %{x}<br>Open-access works %{y:,}<extra></extra>"}],{...layout,xaxis:{...layout.xaxis,title:"Year",dtick:2},yaxis:{...layout.yaxis,title:"Open-access works"}},config);
+const topics=[...(d.topics||[])].sort((a,b)=>n(b.count)-n(a.count));const top=topics.slice(0,15).reverse();
+Plotly.newPlot("oaTopicsChart",[{x:top.map(x=>n(x.count)),y:top.map(x=>x.name),type:"bar",orientation:"h",marker:{color:"#9a6b32"},hovertemplate:"%{y}<br>Works %{x:,}<extra></extra>"}],{...layout,margin:{l:245,r:15,t:10,b:40},xaxis:{...layout.xaxis,title:"Works"}},config);
+$("oaTopicRows").innerHTML=topics.map(x=>`<tr><td>${esc(x.name)}</td><td>${f(x.count)}</td><td>${esc(x.subfield)}</td><td>${esc(x.field)}</td><td>${esc(x.domain)}</td></tr>`).join("");
+$("oaNote").textContent=`Institution: ${d.display_name}. Profile snapshot last updated ${d.updated_date||"date not provided"}. Counts reflect the supplied OpenAlex API response.`;
+$("oaStatus").textContent="OpenAlex institutional data loaded successfully.";
+}catch(e){$("oaStatus").textContent="OpenAlex data loading failed: "+e.message+". Confirm data/openalex_institution.json is uploaded.";console.error(e)}}
+init();

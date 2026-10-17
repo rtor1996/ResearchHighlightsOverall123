@@ -1,0 +1,322 @@
+{
+  "id": "https://openalex.org/I122964287",
+  "ror": "https://ror.org/047x65e68",
+  "display_name": "National Institute of Technology Tiruchirappalli",
+  "homepage_url": "https://nitt.edu",
+  "works_count": 18054,
+  "cited_by_count": 700426,
+  "summary_stats": {
+    "2yr_mean_citedness": 3.08783260139499,
+    "h_index": 216,
+    "i10_index": 14773
+  },
+  "updated_date": "2026-10-16T18:21:27",
+  "works_api_url": "https://api.openalex.org/works?filter=institutions.id:I122964287",
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "works_count": 957,
+      "oa_works_count": 309,
+      "cited_by_count": 254
+    },
+    {
+      "year": 2025,
+      "works_count": 1461,
+      "oa_works_count": 356,
+      "cited_by_count": 3361
+    },
+    {
+      "year": 2024,
+      "works_count": 1402,
+      "oa_works_count": 316,
+      "cited_by_count": 8029
+    },
+    {
+      "year": 2023,
+      "works_count": 1525,
+      "oa_works_count": 389,
+      "cited_by_count": 19367
+    },
+    {
+      "year": 2022,
+      "works_count": 1567,
+      "oa_works_count": 343,
+      "cited_by_count": 19366
+    },
+    {
+      "year": 2021,
+      "works_count": 1429,
+      "oa_works_count": 330,
+      "cited_by_count": 27157
+    },
+    {
+      "year": 2020,
+      "works_count": 1376,
+      "oa_works_count": 281,
+      "cited_by_count": 33412
+    },
+    {
+      "year": 2019,
+      "works_count": 1202,
+      "oa_works_count": 242,
+      "cited_by_count": 26449
+    },
+    {
+      "year": 2018,
+      "works_count": 988,
+      "oa_works_count": 192,
+      "cited_by_count": 25028
+    },
+    {
+      "year": 2017,
+      "works_count": 750,
+      "oa_works_count": 132,
+      "cited_by_count": 17045
+    },
+    {
+      "year": 2016,
+      "works_count": 690,
+      "oa_works_count": 136,
+      "cited_by_count": 16576
+    },
+    {
+      "year": 2015,
+      "works_count": 621,
+      "oa_works_count": 123,
+      "cited_by_count": 15914
+    },
+    {
+      "year": 2014,
+      "works_count": 592,
+      "oa_works_count": 122,
+      "cited_by_count": 17748
+    },
+    {
+      "year": 2013,
+      "works_count": 519,
+      "oa_works_count": 80,
+      "cited_by_count": 17122
+    },
+    {
+      "year": 2012,
+      "works_count": 545,
+      "oa_works_count": 113,
+      "cited_by_count": 15641
+    },
+    {
+      "year": 2011,
+      "works_count": 511,
+      "oa_works_count": 70,
+      "cited_by_count": 15947
+    },
+    {
+      "year": 2010,
+      "works_count": 418,
+      "oa_works_count": 62,
+      "cited_by_count": 13079
+    }
+  ],
+  "topics": [
+    {
+      "name": "Welding Techniques and Residual Stresses",
+      "count": 615,
+      "subfield": "Mechanical Engineering",
+      "field": "Engineering",
+      "domain": "Physical Sciences",
+      "id": "https://openalex.org/T10834"
+    },
+    {
+      "name": "Advanced Welding Techniques Analysis",
+      "count": 594,
+      "subfield": "Mechanical Engineering",
+      "field": "Engineering",
+      "domain": "Physical Sciences",
+      "id": "https://openalex.org/T10723"
+    },
+    {
+      "name": "Antenna Design and Analysis",
+      "count": 443,
+      "subfield": "Aerospace Engineering",
+      "field": "Engineering",
+      "domain": "Physical Sciences",
+      "id": "https://openalex.org/T10069"
+    },
+    {
+      "name": "Additive Manufacturing Materials and Processes",
+      "count": 443,
+      "subfield": "Mechanical Engineering",
+      "field": "Engineering",
+      "domain": "Physical Sciences",
+      "id": "https://openalex.org/T10705"
+    },
+    {
+      "name": "Advanced Antenna and Metasurface Technologies",
+      "count": 406,
+      "subfield": "Aerospace Engineering",
+      "field": "Engineering",
+      "domain": "Physical Sciences",
+      "id": "https://openalex.org/T11383"
+    },
+    {
+      "name": "Microwave Engineering and Waveguides",
+      "count": 363,
+      "subfield": "Electrical and Electronic Engineering",
+      "field": "Engineering",
+      "domain": "Physical Sciences",
+      "id": "https://openalex.org/T10262"
+    },
+    {
+      "name": "Advanced Photocatalysis Techniques",
+      "count": 360,
+      "subfield": "Renewable Energy, Sustainability and the Environment",
+      "field": "Energy",
+      "domain": "Physical Sciences",
+      "id": "https://openalex.org/T10078"
+    },
+    {
+      "name": "Photovoltaic System Optimization Techniques",
+      "count": 325,
+      "subfield": "Renewable Energy, Sustainability and the Environment",
+      "field": "Energy",
+      "domain": "Physical Sciences",
+      "id": "https://openalex.org/T10468"
+    },
+    {
+      "name": "Advanced DC-DC Converters",
+      "count": 324,
+      "subfield": "Electrical and Electronic Engineering",
+      "field": "Engineering",
+      "domain": "Physical Sciences",
+      "id": "https://openalex.org/T10175"
+    },
+    {
+      "name": "Metaheuristic Optimization Algorithms Research",
+      "count": 322,
+      "subfield": "Artificial Intelligence",
+      "field": "Computer Science",
+      "domain": "Physical Sciences",
+      "id": "https://openalex.org/T10100"
+    },
+    {
+      "name": "Aluminum Alloys Composites Properties",
+      "count": 317,
+      "subfield": "Mechanical Engineering",
+      "field": "Engineering",
+      "domain": "Physical Sciences",
+      "id": "https://openalex.org/T10717"
+    },
+    {
+      "name": "Advanced Neural Network Applications",
+      "count": 316,
+      "subfield": "Computer Vision and Pattern Recognition",
+      "field": "Computer Science",
+      "domain": "Physical Sciences",
+      "id": "https://openalex.org/T10036"
+    },
+    {
+      "name": "Advanced Machining and Optimization Techniques",
+      "count": 307,
+      "subfield": "Electrical and Electronic Engineering",
+      "field": "Engineering",
+      "domain": "Physical Sciences",
+      "id": "https://openalex.org/T11451"
+    },
+    {
+      "name": "TiO2 Photocatalysis and Solar Cells",
+      "count": 302,
+      "subfield": "Renewable Energy, Sustainability and the Environment",
+      "field": "Energy",
+      "domain": "Physical Sciences",
+      "id": "https://openalex.org/T10024"
+    },
+    {
+      "name": "Electrocatalysts for Energy Conversion",
+      "count": 288,
+      "subfield": "Renewable Energy, Sustainability and the Environment",
+      "field": "Energy",
+      "domain": "Physical Sciences",
+      "id": "https://openalex.org/T10030"
+    },
+    {
+      "name": "Advanced machining processes and optimization",
+      "count": 284,
+      "subfield": "Mechanical Engineering",
+      "field": "Engineering",
+      "domain": "Physical Sciences",
+      "id": "https://openalex.org/T10188"
+    },
+    {
+      "name": "Multilevel Inverters and Converters",
+      "count": 282,
+      "subfield": "Electrical and Electronic Engineering",
+      "field": "Engineering",
+      "domain": "Physical Sciences",
+      "id": "https://openalex.org/T10228"
+    },
+    {
+      "name": "ZnO doping and properties",
+      "count": 279,
+      "subfield": "Materials Chemistry",
+      "field": "Materials Science",
+      "domain": "Physical Sciences",
+      "id": "https://openalex.org/T10090"
+    },
+    {
+      "name": "Surface Treatment and Coatings",
+      "count": 278,
+      "subfield": "Mechanical Engineering",
+      "field": "Engineering",
+      "domain": "Physical Sciences",
+      "id": "https://openalex.org/T13470"
+    },
+    {
+      "name": "Microgrid Control and Optimization",
+      "count": 266,
+      "subfield": "Control and Systems Engineering",
+      "field": "Engineering",
+      "domain": "Physical Sciences",
+      "id": "https://openalex.org/T10223"
+    },
+    {
+      "name": "Multi-Criteria Decision Making",
+      "count": 256,
+      "subfield": "Management Science and Operations Research",
+      "field": "Decision Sciences",
+      "domain": "Social Sciences",
+      "id": "https://openalex.org/T10050"
+    },
+    {
+      "name": "Advanced oxidation water treatment",
+      "count": 254,
+      "subfield": "Water Science and Technology",
+      "field": "Environmental Science",
+      "domain": "Physical Sciences",
+      "id": "https://openalex.org/T10210"
+    },
+    {
+      "name": "Metal Forming Simulation Techniques",
+      "count": 241,
+      "subfield": "Mechanical Engineering",
+      "field": "Engineering",
+      "domain": "Physical Sciences",
+      "id": "https://openalex.org/T10700"
+    },
+    {
+      "name": "Biodiesel Production and Applications",
+      "count": 225,
+      "subfield": "Biomedical Engineering",
+      "field": "Engineering",
+      "domain": "Physical Sciences",
+      "id": "https://openalex.org/T10507"
+    },
+    {
+      "name": "Advanced Control Systems Design",
+      "count": 224,
+      "subfield": "Control and Systems Engineering",
+      "field": "Engineering",
+      "domain": "Physical Sciences",
+      "id": "https://openalex.org/T11081"
+    }
+  ],
+  "data_note": "OpenAlex institution profile snapshot supplied by user; counts may differ from Scopus/SciVal because databases have different coverage and update schedules."
+}
